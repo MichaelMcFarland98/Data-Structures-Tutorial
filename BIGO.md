@@ -1,1 +1,3 @@
 # Big O Notation
+## What is Big O Notation?
+Imagine you are working to build software for Tesla's new self driving cars. You create an AI for the car and it works! The only down side is that when your software is running, it takes several seconds for the AI to make the next decision. Now that is an issue. In many siutations when driving, a second of a difference can make all the difference between a close call and a wreck. As developers we want programs that execute fast. Now most programs will run very fast given very little data. 
