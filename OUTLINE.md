@@ -1,0 +1,2 @@
+# Outline
+## [Welcome](WELCOME.md)
