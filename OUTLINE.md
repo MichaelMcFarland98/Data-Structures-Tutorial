@@ -1,6 +1,6 @@
 # Outline
 
-## [Welcome](WELCOME.md)
+## [Welcome](README.md)
 * Introduction
 * Links to Tutorial Pages
 * Contact
