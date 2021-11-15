@@ -13,8 +13,15 @@
 
 ## [Queues](QUEUE.md)
 * What is a Queue?
-** Real World Example 
+* Real World Example 
+* Why use Queue?
+
 
 ## [Link List](LINKEDLIST.md)
+* What is a Linked List?
+* Why use Linked List?
 
 ## [Trees](TREES.md)
+* Trees in programming???
+* Why Trees?
+* How are they used?
