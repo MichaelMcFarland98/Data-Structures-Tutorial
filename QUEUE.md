@@ -1,2 +1,2 @@
 # Let's learn Queue Data Structures!
-HAve you ever been waiting in line and 
+Imagine you are waiting in line for your favorite Fast Food! You are the second one in line. Right after you walked in, five other customers walked in and are in line behind you. The staff start helping people in the very back of the line first! This would make you very upset, right? This is why we have queues! They follow the First In First Out (FIFO) mentatlity. 
