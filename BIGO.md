@@ -8,4 +8,9 @@ Ideally a great code would run the same speed or close to the same speed with an
 
 ## Calculating Big O Notation
 ### Some Basic Rules
-
+1.Conditional checks are constant (i.e. O(1)).
+4. Nested loops are multiplied together.
+5. Sequential loops are added.
+6. Only the largest term is kept, all others are dropped.
+7. Constants are dropped.
+8. 
