@@ -40,9 +40,12 @@ for value in data:
 
 Our loop example is O(n) as it runs for every value in our input. The operations increase in a linear fashion according to the inputs.
 
-#### O(n^2)
-
-
-
-
+#### O(n²)
+Now we have our O(n²)! We will want to avoid O(n²) as much as possible!!! The number of operations will always increase significantly when we add more to the data we are passing to our code. Let's look at an example!
+```python
+for x in data:
+    for y in data:
+        print(x, y)
+```
+A good rule of thumb is that if you see nested loops, then you use multiplication to work out the notation, like in our basic rule 3. So in our example above, we are doing O(n *n) which becomes O(n²) (O of n squared). This is known as quadratic time which means that every time the number of elements increases, we increase the operations quadratically.
 
