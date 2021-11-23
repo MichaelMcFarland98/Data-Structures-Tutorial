@@ -21,7 +21,7 @@ Ideally a great code would run the same speed or close to the same speed with an
 What is O(1)? O(1) is constant time. The time is consistent for each execution. Imagine if you work at an amusement park. It takes the rollercoaster exactly 3 minutes to complete the track, and then that ride or particular task is considered to be complete. It doesn’t matter if you only send one ride through the track that day, or a hundred rides that day, you have sent the rides in a consistent amount of time.
 
 So as per our example earlier, we don’t care about O(1), O(2), etc. We round it down to O(1) which is to say that our operation is a flat line in terms of scalability. It will take the same amount of time. This is predictable and very scalable. See an example:
-``` python:
+```python
 def constant_algo(items):
     result = items[0] * items[0]
     print ()
