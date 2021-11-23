@@ -16,6 +16,7 @@ Ideally a great code would run the same speed or close to the same speed with an
 6) Go one line at a time
 
 ### A Break Down of the main Big O Sections
+The following is just a simplized breakdown of some of the basic sections of the Big O Graph. Please feel free to look into the graph and try and guess what kind of programs would create that timing!
 
 #### O(1)
 What is O(1)? O(1) is constant time. The time is consistent for each execution. Imagine if you work at an amusement park. It takes the rollercoaster exactly 3 minutes to complete the track, and then that ride or particular task is considered to be complete. It doesn’t matter if you only send one ride through the track that day, or a hundred rides that day, you have sent the rides in a consistent amount of time.
