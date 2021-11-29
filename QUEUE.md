@@ -61,19 +61,18 @@ print(customers)
 ```python
 input_queue = Queue()
 
-# The player wants to get the upper hand so pressing the right combination of buttons quickly
-input_queue.append('DOWN')
-input_queue.append('RIGHT')
-input_queue.append('B')
+# The player wants to get the upper hand so pressing the right combination of buttons quickly (Add DOWN, RIGHT, B)
+  #Add code here
 
-# Now we can process each item in the queue by dequeueing them
+# Now we can process each item in the queue by dequeueing them (Dequeue next move)
 key_pressed = input_queue.pop() # 'DOWN'
 
-# We'll probably change our player position
+# We'll probably change our player position (Dequeue next move)
 key_pressed = input_queue.pop() # 'RIGHT'
 
-# We'll change the player's position again and keep track of a potential special move to perform
+# We'll change the player's position again and keep track of a potential special move to perform (Dequeue next move)
 key_pressed = input_queue.pop() # 'B'
 
 # This can do the act, but the game's logic will know to do the special move
 ```
+ [See Solution](https://github.com/MichaelMcFarland98/Data-Structures-Tutorial/blob/main/SOLUTIONS.md#queue-problem-2-solution)
