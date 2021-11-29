@@ -6,10 +6,7 @@ In programming they are a container that will keep track of the order data is ad
 | Common Queue Term  | Waht does it do? | How to write it in Python | Big O Timing |
 | ------------- | ------------- | ------------- | ------------- |
 | enqueue(value)  | Adds "value" to the back of the queue  | my_queue.append(value) | O(1) - Performance of adding to the end of the dynamic array |
-| dequeue()  | Two approaches: Remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0]
-del my_queue[0]
-or
-value = my_queue.pop(0) | O(n) - Performance of obtaining and removing from the beginning of the dynamic array |
+| dequeue()  | Two approaches: Remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0] / del my_queue[0] /or /value = my_queue.pop(0) | /O(n) - Performance of obtaining and removing from the beginning of the dynamic array |
 | size()  | Return the size of the queue  | length = len(my_queue) | O(1) - Performance of returning the size of the dynamic array|
 | empty()  | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1) - Performance of checking the size of the dynamic array|
 
