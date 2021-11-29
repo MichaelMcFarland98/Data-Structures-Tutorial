@@ -3,12 +3,12 @@ Imagine you are waiting in line for your favorite Fast Food! You are the second 
 
 In programming they are a container that will keep track of the order data is added to the container. This allows us to build the queue and manipulate the queue. If it is easier, just imgagine the data is in a line and you are telling it what to do! Let's take a look at some common terms and how to implement them into our python code.
 
-| Common Queue Term  | Waht does it do? | How to write it in Python | Big O Timing |
+| Common Queue Term  | What does it do? | How to write it in Python | Big O Timing |
 | ------------- | ------------- | ------------- | ------------- |
-| enqueue(value)  | Adds "value" to the back of the queue  | my_queue.append(value) | O(1) - Performance of adding to the end of the dynamic array |
-| dequeue()  | Two approaches: Remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0]  <br/> del my_queue[0] <br/> or <br/>value = my_queue.pop(0) | O(n) - Performance of obtaining and removing from the beginning of the dynamic array |
-| size()  | Return the size of the queue  | length = len(my_queue) | O(1) - Performance of returning the size of the dynamic array|
-| empty()  | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1) - Performance of checking the size of the dynamic array|
+| enqueue(value)  | Adds the data to the back of the queue  | my_queue.append(value) | O(1)|
+| dequeue()  | You can either remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0]  <br/> del my_queue[0] <br/> or <br/>value = my_queue.pop(0) | O(n) |
+| size()  | Return size of the queue  | length = len(my_queue) | O(1)|
+| empty()  | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1)|
 
 Lets look at the sample problem #1 below. We have a queue of people.
 
