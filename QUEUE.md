@@ -32,8 +32,6 @@ print(first_item)
 print(customers) 
 ```
 
-Now let's look at another example! So when people play video games, sometimes they can press the buttons faster then the program can read the button press, perform the action and then check for the next button press. So let's build a queue to store the button presses in the order they were pressed. We are adding them to a queue because adding to the back of a list is O(1) performance which is what we want to strive for! Help finish the code below to ensure our customers do not get frustrated with our game because they cannot perform those epic combination moves!
-
 ## Solution to Problem #1
 ```python
 customers = []
@@ -55,6 +53,7 @@ print(first_item)
 # 'Jared' and 'Jessica' remain
 print(customers) 
 ```
+Now let's look at another example! So when people play video games, sometimes they can press the buttons faster then the program can read the button press, perform the action and then check for the next button press. So let's build a queue to store the button presses in the order they were pressed. We are adding them to a queue because adding to the back of a list is O(1) performance which is what we want to strive for! Help finish the code below to ensure our customers do not get frustrated with our game because they cannot perform those epic combination moves!
 
 ## Sample Problem #2
 
