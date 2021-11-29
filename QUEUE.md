@@ -10,13 +10,13 @@ In programming they are a container that will keep track of the order data is ad
 | size()  | Return size of the queue  | length = len(my_queue) | O(1)|
 | empty()  | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1)|
 
-Lets look at the sample problem #1 below. We have a queue of people.
+Lets look at the sample problem #1 below. We have a queue of people entering your boba shop, they are all lining up and making their orders! You want to make their orders in the order you received them. Help finish the code below to create a program to keep track of that for you!
 
 ## Sample Problem #1
 ```python
 customers = []
 
-# Let's enqueue some customers into our list (Add: Dave, Sara, Jared, and Jessica in this order)
+# Let's enqueue or add some customers into our list (Add: Dave, Sara, Jared, and Jessica in this order)
   #Add your code here
 print(customers) #We should get Dave, Sara, Jared, Jessica
 
@@ -31,6 +31,9 @@ print(first_item)
 # 'Jared' and 'Jessica' remain
 print(customers) 
 ```
+
+Now let's look at another example! So when people play video games, sometimes they can press the buttons faster then the program can read the button press, perform the action and then check for the next button press. So let's build a queue to store the button presses in the order they were pressed. We are adding them to a queue because adding to the back of a list is O(1) performance which is what we want to strive for! Help finish the code below to ensure our customers do not get frustrated with our game because they cannot perform those epic combination moves!
+
 ## Solution to Problem #1
 ```python
 customers = []
