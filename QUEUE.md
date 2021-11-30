@@ -59,7 +59,7 @@ length = len(customers)
 #Our last customers are...
 print(customers) 
 ```
-Now let's look at another example! So when people play video games, sometimes they can press the buttons faster then the program can read the button press, perform the action and then check for the next button press. So let's build a queue to store the button presses in the order they were pressed. We are adding them to a queue because adding to the back of a list is O(1) performance which is what we want to strive for! Help finish the code below to ensure our customers do not get frustrated with our game because they cannot perform those epic combination moves!
+Now let's look at another example! Again we are needing a queue for our Boba shop! The code before was very simple and not ideal for using in a company because we would have to add every line of code. More often we will be creating a program we can run and using functions to add and remove data from the queue. The link below will take you to replit.com which is an online repel. You can run and see the file of the code there. If you are going to work on the code yourself you will need to copy the file and paste it into your editor or create an account on replit.com and fork the repel on the link below. I have also provided a solution to reference if you get stuck. 
 
 
 ## [Sample Problem #2](https://replit.com/@MichaelMcFarla5/QueueLessonProblem#main.py)
