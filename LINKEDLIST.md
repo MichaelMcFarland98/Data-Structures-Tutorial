@@ -1,5 +1,6 @@
 # Linked List
-##
+## What are linked lists? 
+## Doubly Linked Lists
 ## Performance of Linked Lists
 ## How to Implement
 ### Problem 1
