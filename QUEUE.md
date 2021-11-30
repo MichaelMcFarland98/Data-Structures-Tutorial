@@ -61,23 +61,6 @@ print(customers)
 ```
 Now let's look at another example! So when people play video games, sometimes they can press the buttons faster then the program can read the button press, perform the action and then check for the next button press. So let's build a queue to store the button presses in the order they were pressed. We are adding them to a queue because adding to the back of a list is O(1) performance which is what we want to strive for! Help finish the code below to ensure our customers do not get frustrated with our game because they cannot perform those epic combination moves!
 
-## Sample Problem #2
 
-```python
-input_queue = Queue()
-
-# The player wants to get the upper hand so pressing the right combination of buttons quickly (Add DOWN, RIGHT, B)
-  #Add code here
-
-# Now we can process each item in the queue by dequeueing them (Dequeue next move)
-key_pressed = input_queue.pop() # 'DOWN'
-
-# We'll probably change our player position (Dequeue next move)
-key_pressed = input_queue.pop() # 'RIGHT'
-
-# We'll change the player's position again and keep track of a potential special move to perform (Dequeue next move)
-key_pressed = input_queue.pop() # 'B'
-
-# This can do the act, but the game's logic will know to do the special move
-```
- [See Solution](https://github.com/MichaelMcFarland98/Data-Structures-Tutorial/blob/main/SOLUTIONS.md#queue-problem-2-solution)
+## [Sample Problem #2](https://replit.com/@MichaelMcFarla5/QueueLessonProblem#main.py)
+ [See Solution](https://replit.com/@MichaelMcFarla5/QueueLessonSolution#main.py)
