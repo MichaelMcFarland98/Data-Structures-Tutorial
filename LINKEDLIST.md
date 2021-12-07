@@ -82,6 +82,8 @@ Here is a chart containg some of the common operations we will do within our lin
 ## Performance of Linked Lists
 
 ### Problem 1
+https://www.pythonforbeginners.com/lists/linked-list-in-python
+
 ### Solution 1
 ## Try it on your own!
 Creating your own linked list https://realpython.com/linked-lists-python/#implementing-your-own-linked-list
