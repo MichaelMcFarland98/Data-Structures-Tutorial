@@ -84,6 +84,7 @@ Here is a chart containg some of the common operations we will do within our lin
 ### Problem 1
 https://www.pythonforbeginners.com/lists/linked-list-in-python
 https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/tutorial/
+https://www.techiedelight.com/linked-list-implementation-python/
 
 ### Solution 1
 ## Try it on your own!
