@@ -1,11 +1,17 @@
 # Linked List
 ## What are linked lists? 
 Linked List can be intimidating but don't you worry! They can actually be lots of fun! A major characteristic of linked lists is that they are linear data structures. This means that there is a sequence and an order to how they can be traversed and constructed.
-
+![Linked List Example](LinkedList.PNG)
 ## Doubly Linked Lists
 ![Doubly Linked List Example](DoublyLinkedList.PNG)
 ## How to Implement
-
+### Inserting 
+#### Inserting From the Head
+![Inserting at the head Example](InsertHeadLL.PNG)
+#### Inserting in the Middle
+![Inserting in the middle Example](InsertMidLL.PNG)
+#### Inserting From the Tail
+![Inserting at the tail Example](InsertTailLL.PNG)
 | Common Linked List Terms and Operations  | What does it do? | How to write it in Python | Big O Timing |
 | ------------- | ------------- | ------------- | ------------- |
 | insert_head(value)  | Adds data before the head  | my_deque.appendleft(value) | O(1)|
