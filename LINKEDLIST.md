@@ -6,6 +6,7 @@ Linked List can be intimidating but don't you worry! They can actually be lots o
 
 ## Doubly Linked Lists
 These Linked List not only contain a link to the next node but the previous node as well. This allows us to go forward and backwork through the linked list. We will focus on this in our examples of inserting and deleting because if you understand how to work with doubly linked list, singular linked list are much simpler. 
+
 ![Doubly Linked List Example](DoublyLinkedList.PNG)
 
 ## How to Implement
