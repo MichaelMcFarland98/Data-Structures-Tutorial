@@ -17,7 +17,7 @@ Linked List can be intimidating but don't you worry! They can actually be lots o
 #### Deleting From the Head
 ![Deleting at the head Example](RemoveHeadLL.PNG)
 #### Deleting in the Middle
-![Deleting in the middle Example](RemoveMidLL.PNG)
+![Deleting in the middle Example](DeleteMidLL.PNG)
 #### Deleting From the Tail
 ![Deleting at the tail Example](RemoveTailLL.PNG)
 | Common Linked List Terms and Operations  | What does it do? | How to write it in Python | Big O Timing |
