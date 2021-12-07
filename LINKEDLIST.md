@@ -17,6 +17,7 @@ To Insert at the head we need to:
 2) Set the NEXT of the new node to the current head (new_node.next = self.head)
 3) Set PREV of current head to the new node (self.head.prev = new_node)
 4) Set the head equal to the new node (self.head = new_node)
+
 ![Inserting at the head Example](InsertHeadLL.PNG)
 
 #### Inserting in the Middle
@@ -26,6 +27,7 @@ To Insert in the middle of our Linked List we need to:
 3) Set NEXT of new node to the next node after the current (new_node.next = current.next)
 4) Set PREV of next mode after current node to the new node, establishing this connection will automatically delete the previous connection (current.next.prev = new_node)
 5) Set NEXT of current node to new node (current.next = new_node)
+
 ![Inserting in the middle Example](InsertMidLL.PNG)
 
 #### Inserting From the Tail
@@ -34,6 +36,7 @@ To Insert at the tail we need to:
 2) Set PREV of the new node to the current tail (new_node.prev = self.tail)
 3) Set NEXT of current tail to the new node (self.tail.next = new_node)
 4) Set the tail equal to the new node (self.tail = new_node)
+
 ![Inserting at the tail Example](InsertTailLL.PNG)
 
 ### Deleting 
@@ -43,6 +46,7 @@ Deleting from a Linked List is a lot easier then inserting. Mainly because we do
 To delete from the head we need to:
 1) Set PREV of the second node to none (self.head.next.prev = None) We used self.head.next to reference the second node and then PREV to set that connection. 
 2) Set HEAD to the second node (self.head = self.head.next) Each time we set a connection, it deleted one of the connections to the node we wanted to delete. 
+
 ![Deleting at the head Example](RemoveHeadLL.PNG)
 
 #### Deleting in the Middle
@@ -50,14 +54,17 @@ Remember that we are wanting to make these connections go arround the node we ar
 To delete from the middle we need to:
 1) Set PREV of the node that follows the node we are trying to delete (current node) to before the node we are trying to delete. (current.next.prev = current.prev)
 2) Set the next link of the node before our current node to the node that follows our current node. (current.prev.next - current.next)
+
 ![Deleting in the middle Example](DeleteMidLL.PNG)
 
 #### Deleting From the Tail
 To delete from the tail we need to:
 1) Set NEXT of the second  to last node to none (self.tail.prev.next = None)
 2) Set TAIL to the second to last node (self.tail = self.tail.prev)
+
 ![Deleting at the tail Example](RemoveTailLL.PNG)
 
+Here is a chart containg some of the common operations we will do within our linked list functions
 | Common Linked List Terms and Operations  | What does it do? | How to write it in Python | Big O Timing |
 | ------------- | ------------- | ------------- | ------------- |
 | insert_head(value)  | Adds data before the head  | my_deque.appendleft(value) | O(1)|
