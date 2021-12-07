@@ -14,15 +14,24 @@ To Insert at the head we need to:
 3) Set PREV of current head to the new node (self.head.prev = new_node)
 4) Set the head equal to the new node (self.head = new_node)
 ![Inserting at the head Example](InsertHeadLL.PNG)
+
 #### Inserting in the Middle
+To Insert in the middle of our Linked List we need to:
+1) Create our new node (new_node)
+2) Set PREV of the new node to the current node (new_node.prev = current)
+3) Set NEXT of new node to the next node after the current (new_node.next = current.next)
+4) Set PREV of next mode after current node to the new node, establishing this connection will automatically delete the previous connection (current.next.prev = new_node)
+5) Set NEXT of current node to new node (current.next = new_node)
 ![Inserting in the middle Example](InsertMidLL.PNG)
+
 #### Inserting From the Tail
-![Inserting at the tail Example](InsertTailLL.PNG)
 To Insert at the tail we need to:
 1) Create our new node (new_node)
 2) Set PREV of the new node to the current tail (new_node.prev = self.tail)
 3) Set NEXT of current tail to the new node (self.tail.next = new_node)
 4) Set the tail equal to the new node (self.tail = new_node)
+![Inserting at the tail Example](InsertTailLL.PNG)
+
 ### Deleting 
 #### Deleting From the Head
 ![Deleting at the head Example](RemoveHeadLL.PNG)
