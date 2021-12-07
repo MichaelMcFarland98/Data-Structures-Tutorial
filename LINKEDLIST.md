@@ -4,15 +4,25 @@ Linked List can be intimidating but don't you worry! They can actually be lots o
 ![Linked List Example](LinkedList.PNG)
 ## Doubly Linked Lists
 ![Doubly Linked List Example](DoublyLinkedList.PNG)
+
 ## How to Implement
 ### Inserting 
 #### Inserting From the Head
+To Insert at the head we need to:
+1) Create our new node (new_node)
+2) Set the NEXT of the new node to the current head (new_node.next = self.head)
+3) Set PREV of current head to the new node (self.head.prev = new_node)
+4) Set the head equal to the new node (self.head = new_node)
 ![Inserting at the head Example](InsertHeadLL.PNG)
 #### Inserting in the Middle
 ![Inserting in the middle Example](InsertMidLL.PNG)
 #### Inserting From the Tail
 ![Inserting at the tail Example](InsertTailLL.PNG)
-
+To Insert at the tail we need to:
+1) Create our new node (new_node)
+2) Set PREV of the new node to the current tail (new_node.prev = self.tail)
+3) Set NEXT of current tail to the new node (self.tail.next = new_node)
+4) Set the tail equal to the new node (self.tail = new_node)
 ### Deleting 
 #### Deleting From the Head
 ![Deleting at the head Example](RemoveHeadLL.PNG)
