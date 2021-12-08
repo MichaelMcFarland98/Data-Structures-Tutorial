@@ -80,12 +80,16 @@ Here is a chart containg some of the common operations we will do within our lin
 
 
 ## Performance of Linked Lists
+### Practice
+So below we will practice implementing the inset and deleting functions. If you get stuck, take a look at the above steps, and graph. If you still cannot figure it out, compare your work with the solution provided. The size and traversing(getalldata) functions are already created for you so take a look at how those were written up. 
 
-### Problem 1
-https://www.pythonforbeginners.com/lists/linked-list-in-python
-https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/tutorial/
-https://www.techiedelight.com/linked-list-implementation-python/
+#### Problem 1: Creating the Inserting Functionality
 
-### Solution 1
+##### Solution 1
+
+#### Problem 2: Creating the Removing/Deleting Functionality
+
+##### Solution 2
+
 ## Try it on your own!
 Creating your own linked list https://realpython.com/linked-lists-python/#implementing-your-own-linked-list
