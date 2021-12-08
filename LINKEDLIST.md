@@ -84,7 +84,7 @@ Here is a chart containg some of the common operations we will do within our lin
 So below we will practice implementing the inset and deleting functions. If you get stuck, take a look at the above steps, and graph. If you still cannot figure it out, compare your work with the solution provided. The size and traversing(getalldata) functions are already created for you so take a look at how those were written up. 
 
 #### Problem 1: Creating the Inserting Functionality
-
+https://codezup.com/how-to-create-singly-linked-list-python/ !!!!
 ##### Solution 1
 
 #### Problem 2: Creating the Removing/Deleting Functionality
