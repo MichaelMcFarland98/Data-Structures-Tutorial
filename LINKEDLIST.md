@@ -83,13 +83,16 @@ Here is a chart containg some of the common operations we will do within our lin
 ### Practice
 So below we will practice implementing the inset and deleting functions. If you get stuck, take a look at the above steps, and graph. If you still cannot figure it out, compare your work with the solution provided. The size and traversing(getalldata) functions are already created for you so take a look at how those were written up. 
 
-#### Problem 1: Creating the Inserting Functionality
-https://codezup.com/how-to-create-singly-linked-list-python/ !!!!
-##### Solution 1
+#### [Problem 1: Creating the Inserting Functionality](TREES.md)
+Here you will implement the insertfirst and insertlast functions. The size and getalldata dunctions have already been written for you. The expected print out of the code is located at the bottom of the code under the print statements.
 
-#### Problem 2: Creating the Removing/Deleting Functionality
+##### [Solution 1](TREES.md)
 
-##### Solution 2
+#### [Problem 2: Creating the Removing/Deleting Functionality](TREES.md)
+Here you will implement the remove function. The expected print out of the code is located at the bottom of the code under the print statements. 
 
-## Try it on your own!
-Creating your own linked list https://realpython.com/linked-lists-python/#implementing-your-own-linked-list
+##### [Solution 2](TREES.md)
+
+## [Try it on your own!](https://realpython.com/linked-lists-python/#implementing-your-own-linked-list)
+The link above is done by RealPython.com and it walks you through writing your own node and linked list classes as well! Give it a shot for more of a challenge!
+Creating your own linked list 
