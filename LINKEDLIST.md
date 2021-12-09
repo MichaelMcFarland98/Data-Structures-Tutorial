@@ -77,9 +77,6 @@ Here is a chart containg some of the common operations we will do within our lin
 | empty()  | Returns true if the length of the linde list is zero. | if len(my_deque) == 0: | O(1)|
 
 
-
-
-## Performance of Linked Lists
 ### Practice
 So below we will practice implementing the inset and deleting functions. If you get stuck, take a look at the above steps, and graph. If you still cannot figure it out, compare your work with the solution provided. The size and traversing(getalldata) functions are already created for you so take a look at how those were written up. 
 
