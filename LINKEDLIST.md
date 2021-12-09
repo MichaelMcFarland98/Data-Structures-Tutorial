@@ -84,9 +84,9 @@ Here is a chart containg some of the common operations we will do within our lin
 So below we will practice implementing the inset and deleting functions. If you get stuck, take a look at the above steps, and graph. If you still cannot figure it out, compare your work with the solution provided. The size and traversing(getalldata) functions are already created for you so take a look at how those were written up. 
 
 #### [Problem 1: Creating the Inserting Functionality](https://replit.com/@MichaelMcFarla5/LinkedList-Problem-1)
-Here you will implement the insertfirst and insertlast functions. The size and getalldata dunctions have already been written for you. The expected print out of the code is located at the bottom of the code under the print statements.
+Here you will implement the insertfirst and insertlast functions. The size and getalldata dunctions have already been written for you. The expected print out of the code is located at the bottom of the code under the print statements. ##### [Solution 1](https://replit.com/@MichaelMcFarla5/LinkedList-Solution-1)
 
-##### [Solution 1](https://replit.com/@MichaelMcFarla5/LinkedList-Solution-1)
+
 
 #### [Problem 2: Creating the Removing/Deleting Functionality](https://replit.com/@MichaelMcFarla5/LinkedList-Problem-2)
 Here you will implement the remove function. The expected print out of the code is located at the bottom of the code under the print statements. 
