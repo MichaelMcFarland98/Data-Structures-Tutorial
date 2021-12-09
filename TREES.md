@@ -14,8 +14,19 @@ Like Thanos said in Avengers, perfectly balanced, as all things should be. We li
 ## Implementing Trees
 
 ### Common Terms and Operations
+| Common Linked List Terms and Operations  | What does it do? | How to write it in Python | Big O Timing |
+| ------------- | ------------- | ------------- | ------------- |
+| insert(value) | Adds data into the tree | my_deque.appendleft(value) | O(log n) |
+| insert_tail(value)  | Adds data after the tail  | my_deque.append(value) | O(1) |
+| insert(i, value)  | Adds data after node "i"  | my_deque.insert(i, value) | O(n), the reason this is O(n) is because it has to loop through the linked list|
+| remove_head()  | Removes the head | value = my_deque.popleft() | O(1)|
+| remove_tail(index)  | Removes the tail | value = my_deque.pop() | O(1)|
+| remove(i)  | Removes node "i" | del my_deque[i] | O(n), again the reason this is O(n) is because it has to loop through the linked list |
+| size()  | Return size of the linked list  | length = len(my_deque) | O(1)|
+| empty()  | Returns true if the length of the linde list is zero. | if len(my_deque) == 0: | O(1)|
 
 ### Problem 1
+https://qvault.io/python/binary-search-tree-in-python/
 ### Problem 2
 
 ## Why use Trees?
