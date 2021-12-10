@@ -5,7 +5,7 @@ Yes, we all know or should know the trees that grow in nature and provide us wit
 <img src="actualtree.png" width="200" height="200"> <img src="vs.jpg" width="50" height="50"> <img src="Treeimage.PNG"> 
 
 ## Binary
-A binary tree is a tree that each element or parent node has at most two children nodes. Since there are at most two children nodes, we use the term left and right. So you can think of it like a linked list but instead of NEXT we have LEFT and RIGHT. 
+A binary tree is a tree that each element or parent node has at most two children nodes. Since there are at most two children nodes, we use the term left and right. So you can think of it like a linked list but instead of NEXT we have LEFT and RIGHT. The example of a tree above is actually a binary tree since each node has at most only 2 nodes it leads to. Notice how the values are organized, the example is actually a binary search tree!
 
 ## Binary Search Trees
 Binary search trees are great! The reason we like a binary search tree is because searching through a binary search tree is really fast because the data is organized as it is entered into the tree. Elements are compred to a node and if they are greater in value they will move to the right child spot of the node. If there is another element in that spot already then the new element is compare to that one to see if it will move down to the child left or right spot. This continues until a spot is found that is empty. This means the children to the left of an element will always be less and the right will always be greater. This allows our search time to be cut in half because we instantly cut half of our tree out of the equation. 
