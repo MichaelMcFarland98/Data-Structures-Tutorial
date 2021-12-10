@@ -2,7 +2,9 @@
 ## What are Trees?
 Yes, we all know or should know the trees that grow in nature and provide us with beautiful sceneary and decorate our lawns with wonderful autumn colors but those are not the trees we are talking about today. We are discussing the data structure trees! Trees are similar to our last data structure we studied, Linked List. Imagine a linked list but each node could connect to more than one node down the line. So instead of a NEXT they have multiple nodes they point to. This can also be said that each parent node has multiple children nodes. 
 
-![Actual Tree Diagram](actualtree.PNG) ![Versus Image](vs.png) ![Programming Tree Diagram](Treeimage.png)
+![Actual Tree Diagram](actualtree.PNG) 
+![Versus Image](vs.png) 
+![Programming Tree Diagram](Treeimage.png)
 
 ## Binary
 A binary tree is a tree that each element or parent node has at most two children nodes. Since there are at most two children nodes, we use the term left and right. So you can think of it like a linked list but instead of NEXT we have LEFT and RIGHT. 
