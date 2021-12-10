@@ -11,7 +11,8 @@ A binary tree is a tree that each element or parent node has at most two childre
 Binary search trees are great! The reason we like a binary search tree is because searching through a binary search tree is really fast because the data is organized as it is entered into the tree. Elements are compred to a node and if they are greater in value they will move to the right child spot of the node. If there is another element in that spot already then the new element is compare to that one to see if it will move down to the child left or right spot. This continues until a spot is found that is empty. This means the children to the left of an element will always be less and the right will always be greater. This allows our search time to be cut in half because we instantly cut half of our tree out of the equation. 
 
 ## Tree Height? 
-Every node level will add to the height
+Every node level will add to the height. So if there is only one node in the tree then the height would be one. Now if that node had a child node and that child node had its own child node the height of that last child node would be three. That may be a little confusing so lets look at the tree below and use it as a reference. The 15 would be at a height of three along with the mode 8. The nodes 5 and 12 would both be at a height of two. Finally the 6 would be a height of four, giving the tree a height of four! 
+
 ![A BST explaining height](height.PNG)
 
 ## Balanced VS Unbalanced
