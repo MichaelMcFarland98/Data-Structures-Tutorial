@@ -13,6 +13,8 @@ Binary search trees are great! The reason we like a binary search tree is becaus
 ## Balanced VS Unbalanced
 Like Thanos said in Avengers, perfectly balanced, as all things should be. We like balanced trees because they are easy on the eyes and we aren't wasting space. A balanced tree is one that has the same or close to the same amount of elements or data on one side of the tree as the other side of the tree. Below you have two examples, one of a balance tree and the other of an unbalanced tree
 
+<img src="notbalanced.PNG" width="200" height="200"> <img src="vs.jpg" width="50" height="50"> <img src="balanced.PNG"> 
+
 ## Tree Height? 
 
 
