@@ -10,19 +10,24 @@ A binary tree is a tree that each element or parent node has at most two childre
 ## Binary Search Trees
 Binary search trees are great! The reason we like a binary search tree is because searching through a binary search tree is really fast because the data is organized as it is entered into the tree. Elements are compred to a node and if they are greater in value they will move to the right child spot of the node. If there is another element in that spot already then the new element is compare to that one to see if it will move down to the child left or right spot. This continues until a spot is found that is empty. This means the children to the left of an element will always be less and the right will always be greater. This allows our search time to be cut in half because we instantly cut half of our tree out of the equation. 
 
+## Tree Height? 
+
+
 ## Balanced VS Unbalanced
-Like Thanos said in Avengers, perfectly balanced, as all things should be. We like balanced trees because they are easy on the eyes and we aren't wasting space. A balanced tree is one that has the same or close to the same amount of elements or data on one side of the tree as the other side of the tree. Below you have two examples, one of a balance tree and the other of an unbalanced tree
+Like Thanos said in Avengers, perfectly balanced, as all things should be. We like balanced trees because they are easy on the eyes and we aren't wasting space. A balanced tree is one that has the same or close to the same amount of elements or data on one side of the tree as the other side of the tree. Below you have two examples, one of a balance tree and the other of an unbalanced tree.
 
 ### Unbalanced
 ![Not balanced tree](notbalanced.PNG)
 
 ### Balanced
-![balanced tree](balanced.PNG)
-
-## Tree Height? 
-
+![Balanced tree](balanced.PNG)
 
 ## Implementing Trees
+
+
+
+
+
 
 ### Common Terms and Operations
 | Common Tree Terms and Operations  | What does it do? | Big O Timing |
