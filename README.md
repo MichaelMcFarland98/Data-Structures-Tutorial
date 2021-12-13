@@ -13,5 +13,5 @@ If you are unfamiliar with Big O Notation, I highly recommend starting with the 
 If you are unfamiliar with recursion, please look at our quick look at recursion before going on to the Tree Tutorial!
 * [Quick Look at Recursion](RECURSION.md)
 
-If you have questions or concerns about this tutorial, please contact me at
-michael72gt@gmail.com
+If you have questions or concerns about this tutorial, please contact me at my
+[Email](michael72gt@gmail.com)
