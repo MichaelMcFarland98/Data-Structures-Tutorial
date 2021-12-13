@@ -28,19 +28,21 @@ Like Thanos said in Avengers, perfectly balanced, as all things should be. We li
 
 ### Inserting into a Binary Search Tree
 To insert into the tree we are going to use recursion because we need to find an open space to place our new data. An empty spot to add the new node will be our base case! The problem we will be recursion is comparing our new data to the current node then seeing if it would go left or right based on if it is lesser or greater. Then we would go to that next node and see if it was empty. If it wasn't we would do it again until we reached our based case. 
-You would have two insert functions, usually one is insert and the other _ insert. The insert function would be called when the program ran to insert data into the tree. Then the insert function would call the _ insert function, which would recurse throught the tree like we talked about earlier.
+You would have two insert functions, usually one is insert and the other \_insert. The insert function would be called when the program ran to insert data into the tree. Then the insert function would call the \_insert function, which would recurse throught the tree like we talked about earlier.
 
 A few things to remember: 
-1) Establish a base case in the _insert function so the code knows when to stop the recursion. 
+1) Establish a base case in the \_insert function so the code knows when to stop the recursion. 
 2) Each node will have a left and a right. Left means the value is less than the current node and right is greater. 
 3) To start searching at the root or first node. If there is none then create the first node. 
 
 Now try looking at problem #1 to see if you can create the insert functions!
 
 ### Traversing through a Binary Search Tree
+Traversing forward and backwards through a Binary Search Tree is actually pretty important. Because the tree is already sorted, when we traverse forward, we are returning or printing the tree in order. To do this we will need to take the first node, then check if it had a left node. If it did then we would need to use recursion to go to the next node to the left. Once we get the answer that there are no more left we would print the node and then check the right node. After we would return the recursion, checking to see each of the nodes had a right and left each time.
 
+We will use the __iter__ function along with a traverse_forward or traverse_backward function. We will use our __iter__ function from the Python framework to grab our next item in our collection. The next import thing we should use is yield commands instead of a return. Yield is similar to a return except it allows the function to remember where we left off. Great for recursion! 
 
-
+Now try looking at problem #2 to see if you can create the insert \_traverse_forwward function!
 
 ### Common Terms and Operations
 | Common Tree Terms and Operations  | What does it do? | Big O Timing |
