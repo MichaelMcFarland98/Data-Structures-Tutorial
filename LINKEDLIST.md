@@ -93,4 +93,11 @@ The link above is done by RealPython.com and it walks you through writing your o
 Creating your own linked list 
 
 
+### Quick Links
+* [Big O Crash Course](BIGO.md)
+* [Quick Look at Recursion](RECURSION.md)
+* [Queue](QUEUE.md)
+* [Linked List](LINKEDLIST.md)
+* [Trees](TREES.md)
+
 Go back to our main page? [Click Here](README.md)
