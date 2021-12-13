@@ -16,7 +16,6 @@ The two rules of recursion are:
 
 ### Quick Links
 * [Big O Crash Course](BIGO.md)
-* [Quick Look at Recursion](RECURSION.md)
 * [Queue](QUEUE.md)
 * [Linked List](LINKEDLIST.md)
 * [Trees](TREES.md)
