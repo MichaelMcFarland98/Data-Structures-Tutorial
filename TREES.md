@@ -38,7 +38,7 @@ A few things to remember:
 Now try looking at problem #1 to see if you can create the insert functions!
 
 ### Traversing through a Binary Search Tree
-Traversing forward and backwards through a Binary Search Tree is actually pretty important. Because the tree is already sorted, when we traverse forward, we are returning or printing the tree in order. To do this we will need to take the first node, then check if it had a left node. If it did then we would need to use recursion to go to the next node to the left. Once we get the answer that there are no more left we would print the node and then check the right node. After we would return the recursion, checking to see each of the nodes had a right and left each time.
+Traversing forward and backwards through a Binary Search Tree is actually pretty important. Because the tree is already sorted, when we traverse forward, it allows us to use the function to support loops like printing the tree in order. To do this we will need to take the first node, then check if it had a left node. If it did then we would need to use recursion to go to the next node to the left. Once we get the answer that there are no more left we would print the node and then check the right node. After we would return the recursion, checking to see each of the nodes had a right and left each time.
 
 We will use the __iter__ function along with a traverse_forward or traverse_backward function. We will use our __iter__ function from the Python framework to grab our next item in our collection. The next import thing we should use is yield commands instead of a return. Yield is similar to a return except it allows the function to remember where we left off. Great for recursion! 
 
