@@ -68,7 +68,6 @@ Now let's look at another example! Again we are needing a queue for our Boba sho
 ### Quick Links
 * [Big O Crash Course](BIGO.md)
 * [Quick Look at Recursion](RECURSION.md)
-* [Queue](QUEUE.md)
 * [Linked List](LINKEDLIST.md)
 * [Trees](TREES.md)
 Go back to our main page? [Click Here](README.md)
