@@ -62,7 +62,7 @@ print(customers)
 Now let's look at another example! Again we are needing a queue for our Boba shop! The code before was very simple and not ideal for using in a company because we would have to add every line of code. More often we will be creating a program we can run and using functions to add and remove data from the queue. The link below will take you to replit.com which is an online repel. You can run and see the file of the code there. If you are going to work on the code yourself you will need to copy the file and paste it into your editor or create an account on replit.com and fork the repel on the link below. I have also provided a solution to reference if you get stuck. 
 
 
-## [Sample Problem #2](https://replit.com/@MichaelMcFarla5/QueueLessonProblem#main.py)
+### [Sample Problem #2](https://replit.com/@MichaelMcFarla5/QueueLessonProblem#main.py)
  [See Solution](https://replit.com/@MichaelMcFarla5/QueueLessonSolution#main.py)
  
  Go back to our main page? [Click Here](README.md)
