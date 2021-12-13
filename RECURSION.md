@@ -5,7 +5,7 @@ In life we are used to calling other peoples' names out loud. But it is kind of 
 
 When would we use this? If we wanted to solve large factorials or traverse/go through all the data in a tree, we would use recursion to process these. To better process recursion visually look at the image below created by Free Code Camp.
 
-![Recursion Example](recursionex.PNG)
+![Recursion Example](recursionex.png)
 
 ## The Rules of Recursion
 The two rules of recursion are:
