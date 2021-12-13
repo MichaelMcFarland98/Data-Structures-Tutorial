@@ -65,4 +65,10 @@ Now let's look at another example! Again we are needing a queue for our Boba sho
 ### [Sample Problem #2](https://replit.com/@MichaelMcFarla5/QueueLessonProblem#main.py)
  [See Solution](https://replit.com/@MichaelMcFarla5/QueueLessonSolution#main.py)
  
- Go back to our main page? [Click Here](README.md)
+### Quick Links
+* [Big O Crash Course](BIGO.md)
+* [Quick Look at Recursion](RECURSION.md)
+* [Queue](QUEUE.md)
+* [Linked List](LINKEDLIST.md)
+* [Trees](TREES.md)
+Go back to our main page? [Click Here](README.md)
