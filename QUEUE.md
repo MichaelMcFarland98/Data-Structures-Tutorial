@@ -6,7 +6,7 @@ In programming they are a container that will keep track of the order data is ad
 | Common Queue Term  | What does it do? | How to write it in Python | Big O Timing |
 | ------------- | ------------- | ------------- | ------------- |
 | enqueue(value)  | Adds the data to the back of the queue  | my_queue.append(value) | O(1)|
-| dequeue()  | You can either remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0]  <br/> del my_queue[0] <br/> or <br/>value = my_queue.pop(0) | O(n) |
+| dequeue()  | You can either remove and return the item from the front of the queue; or pop off index 0  | value = my_queue[0]  <br/> del my_queue[0] <br/> or <br/>value = my_queue.pop(0) | It will be O(n) if you use a dynamic array (python list) but it will be O(1) if you use a linked list (python deque).|
 | size()  | Return size of the queue  | length = len(my_queue) | O(1)|
 | empty()  | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1)|
 
