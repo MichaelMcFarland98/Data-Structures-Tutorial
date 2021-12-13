@@ -50,3 +50,9 @@ for x in data:
 ```
 A good rule of thumb is that if you see nested loops, then you use multiplication to work out the notation, like in our basic rule 3. So in our example above, we are doing O(n *n) which becomes O(n²) (O of n squared). This is known as quadratic time which means that every time the number of elements increases, we increase the operations quadratically.
 
+### Quick Links
+* [Quick Look at Recursion](RECURSION.md)
+* [Queue](QUEUE.md)
+* [Linked List](LINKEDLIST.md)
+* [Trees](TREES.md)
+Go back to our main page? [Click Here](README.md)
