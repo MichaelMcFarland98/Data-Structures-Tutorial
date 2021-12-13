@@ -97,7 +97,6 @@ Creating your own linked list
 * [Big O Crash Course](BIGO.md)
 * [Quick Look at Recursion](RECURSION.md)
 * [Queue](QUEUE.md)
-* [Linked List](LINKEDLIST.md)
 * [Trees](TREES.md)
 
 Go back to our main page? [Click Here](README.md)
