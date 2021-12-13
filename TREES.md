@@ -56,7 +56,7 @@ Now try looking at problem #2 to see if you can create the insert \_traverse_for
 | size()  | Return size of the Binary search tree | O(1) The size is actually kept within the tree class|
 | empty()  | Returns true if the root node is empty. This can also be done by checking the size for 0. | O(1) We just have to check the first node or root to know if it is empty|
 
-### Problem 1
+### [Problem 1]()
 https://qvault.io/python/binary-search-tree-in-python/
 ### Problem 2
 
