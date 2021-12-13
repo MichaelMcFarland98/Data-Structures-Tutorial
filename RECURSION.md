@@ -13,3 +13,12 @@ The two rules of recursion are:
 1) Always have a base case. A base case is a situation that would not need us to call the function again. It is sort of like a break statement for a loop. It is usually what we are looking for in our recursion. 
 2) Calling the function on a smaller problem. If we are calling the function on a larger problem, we are not getting anywhere. No progress is being made and the code would run forever. 
 
+
+### Quick Links
+* [Big O Crash Course](BIGO.md)
+* [Quick Look at Recursion](RECURSION.md)
+* [Queue](QUEUE.md)
+* [Linked List](LINKEDLIST.md)
+* [Trees](TREES.md)
+
+Go back to our main page? [Click Here](README.md)
