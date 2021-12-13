@@ -67,3 +67,12 @@ In the above problem you finish the code by implementing the traverse\_forward f
 
 ## Why use Trees?
 We use Binary Search Trees because they provide us with a very fast way to organize our data. If we are ever wanting to have our data sorted, it is best to add it to a tree from the beginning, if not we will be using O(n^2) or O(nlogn) time to sort our list or other data structure!
+
+
+### Quick Links
+* [Big O Crash Course](BIGO.md)
+* [Quick Look at Recursion](RECURSION.md)
+* [Queue](QUEUE.md)
+* [Linked List](LINKEDLIST.md)
+
+Go back to our main page? [Click Here](README.md)
