@@ -31,7 +31,7 @@ To insert into the tree we are going to use recursion because we need to find an
 You would have two insert functions, usually one is insert and the other _ insert. The insert function would be called when the program ran to insert data into the tree. Then the insert function would call the _ insert function, which would recurse throught the tree like we talked about earlier.
 
 A few things to remember: 
-1) Establish a base case in the _ insert function so the code knows when to stop the recursion. 
+1) Establish a base case in the _insert function so the code knows when to stop the recursion. 
 2) Each node will have a left and a right. Left means the value is less than the current node and right is greater. 
 3) To start searching at the root or first node. If there is none then create the first node. 
 
