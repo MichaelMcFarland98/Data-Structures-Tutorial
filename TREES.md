@@ -56,8 +56,12 @@ Now try looking at problem #2 to see if you can create the insert \_traverse_for
 | size()  | Return size of the Binary search tree | O(1) The size is actually kept within the tree class|
 | empty()  | Returns true if the root node is empty. This can also be done by checking the size for 0. | O(1) We just have to check the first node or root to know if it is empty|
 
-### [Problem 1]()
-https://qvault.io/python/binary-search-tree-in-python/
-### Problem 2
+### [Problem 1](https://replit.com/@MichaelMcFarla5/Tree-Problem-1)
+In the above problem, you wil implement the insert function. The \_\_init\_\_ functions have already been taken care of. There is not print out for this problem so do your best to solve it then sheck the solution below to see how we implemented that function. 
+[See Solution](https://replit.com/@MichaelMcFarla5/Tree-Solution-1)
+### [Problem 2](https://replit.com/@MichaelMcFarla5/Tree-Problem-2)
+In the above problem you finish the code by implementing the traverse\_forward function. On the bottom of the code you will need to uncomment out 2 lines of code to loop through the tree and see if your solution worked! If you get stuck, come back to the tutorial or see the solution below. 
+[See Solution](https://replit.com/@MichaelMcFarla5/Tree-Solution-2)
 
 ## Why use Trees?
+We use Binary Search Trees because they provide us with a very fast way to organize our data. If we are ever wanting to have our data sorted, it is best to add it to a tree from the beginning, if not we will be using O(n^2) or O(nlogn) time to sort our list or other data structure!
